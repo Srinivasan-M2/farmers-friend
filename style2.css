@@ -1,0 +1,72 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4fff4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.soil-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.soil-card {
+    background-color: #fff;
+    border-left: 6px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.soil-card:hover {
+    transform: scale(1.03);
+}
+
+.soil-card h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.soil-card p {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+

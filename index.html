@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agriculture Helper</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Helping Farmers Grow Better</h2>
+        <p>Get tips, weather updates, and more to improve your farming.</p>
+        <style>
+            .hero {
+
+                background-image: url(image/1.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                color: white; /* Optional: makes text more readable */
+                padding: 100px 20px; /* Adjust padding as needed */
+                text-align: center;
+            }
+        </style>
+    </section>
+
+    <section id="services">
+        <style>
+            .service-box {
+                background-image: url(image/3.webp);
+                background-size: cover;
+            }
+        </style>
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3 style="color: white;">🌾 Soil Crop</h3>
+            <p style="color: white;">Choose the right crop based on season and soil.</p>
+            <p><a href="page2.html" target="_blank">see more</a></p>
+        </div>
+        <div class="service-box" style="background-image: url(image/5.jpg);">
+            <h3 style="color: white;">💧 Irrigation Tips</h3>
+            <p style="color: white;">Efficient water management guides for your crops.</p>
+            <p><a href="page3.html" target="_blank">see more</a></p>
+        </div>
+        <div class="service-box" style="background-image: url(image/7.jpeg);">
+            <h3 style="color: white;">📞 farmer Helpline</h3>
+            <p style="color: white;">Get immediate assistance for your farming queries.</p>
+            <p><a href="page4.html" target="_blank">see more</a></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <style>
+            .contact-form {
+                background-image: url(image/6.jpg);
+                background-size: cover;
+                padding: 20px;
+                border-radius: 10px;
+            }
+        </style>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Agriculture Helper. All rights reserved.</p>
+    </footer>
+</body>
+</html>

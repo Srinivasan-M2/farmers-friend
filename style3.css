@@ -1,0 +1,71 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4fff4;
+  color: #333;
+}
+
+header {
+  background-color:#4CAF50;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+.tips-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tip-card {
+  background-color: white;
+  border-left: 6px solid #4CAF50;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.tip-card:hover {
+  transform: scale(1.03);
+}
+
+.tip-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #4CAF50;
+}
+
+.tip-card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 50px;
+}
